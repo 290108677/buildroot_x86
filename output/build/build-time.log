@@ -1,0 +1,554 @@
+1629041921.727770887:start:download            : host-skeleton
+1629041921.730476566:end  :download            : host-skeleton
+1629041921.748293254:start:extract             : host-skeleton
+1629041921.751938161:end  :extract             : host-skeleton
+1629041921.770047690:start:patch               : host-skeleton
+1629041921.777120134:end  :patch               : host-skeleton
+1629041921.799236380:start:configure           : host-skeleton
+1629041921.807015385:end  :configure           : host-skeleton
+1629041921.829123787:start:build               : host-skeleton
+1629041921.830899086:end  :build               : host-skeleton
+1629041921.848447949:start:install-host        : host-skeleton
+1629041921.853618988:end  :install-host        : host-skeleton
+1629041921.908348808:start:download            : host-attr
+1629041925.963028700:end  :download            : host-attr
+1629041925.986846731:start:extract             : host-attr
+1629041926.015148542:end  :extract             : host-attr
+1629041926.032273860:start:patch               : host-attr
+1629041926.059840882:end  :patch               : host-attr
+1629041926.087406519:start:configure           : host-attr
+1629041927.753382221:end  :configure           : host-attr
+1629041927.769772790:start:build               : host-attr
+1629041928.742723920:end  :build               : host-attr
+1629041928.760894572:start:install-host        : host-attr
+1629041928.868271066:end  :install-host        : host-attr
+1629041928.955274762:start:download            : host-acl
+1629041932.821382347:end  :download            : host-acl
+1629041932.843451240:start:extract             : host-acl
+1629041932.874909782:end  :extract             : host-acl
+1629041932.892978112:start:patch               : host-acl
+1629041932.914155897:end  :patch               : host-acl
+1629041932.942980179:start:configure           : host-acl
+1629041934.661076499:end  :configure           : host-acl
+1629041934.684147275:start:build               : host-acl
+1629041937.418210747:end  :build               : host-acl
+1629041937.436211633:start:install-host        : host-acl
+1629041937.560958349:end  :install-host        : host-acl
+1629041937.650656038:start:download            : host-m4
+1629041941.366050512:end  :download            : host-m4
+1629041941.386095367:start:extract             : host-m4
+1629041941.475173036:end  :extract             : host-m4
+1629041941.499529897:start:patch               : host-m4
+1629041941.532853520:end  :patch               : host-m4
+1629041941.551366691:start:configure           : host-m4
+1629041953.989555600:end  :configure           : host-m4
+1629041954.008828070:start:build               : host-m4
+1629041956.412882861:end  :build               : host-m4
+1629041956.431298021:start:install-host        : host-m4
+1629041956.616962489:end  :install-host        : host-m4
+1629041956.706539966:start:download            : host-libtool
+1629041961.175134624:end  :download            : host-libtool
+1629041961.191248153:start:extract             : host-libtool
+1629041961.256534966:end  :extract             : host-libtool
+1629041961.273440688:start:patch               : host-libtool
+1629041961.286915098:end  :patch               : host-libtool
+1629041961.306603781:start:configure           : host-libtool
+1629041964.391561587:end  :configure           : host-libtool
+1629041964.411105584:start:build               : host-libtool
+1629041965.337343507:end  :build               : host-libtool
+1629041965.353747210:start:install-host        : host-libtool
+1629041965.587103968:end  :install-host        : host-libtool
+1629041965.675306199:start:download            : host-autoconf
+1629041969.641852898:end  :download            : host-autoconf
+1629041969.658500908:start:extract             : host-autoconf
+1629041969.750571909:end  :extract             : host-autoconf
+1629041969.769166804:start:patch               : host-autoconf
+1629041969.794866538:end  :patch               : host-autoconf
+1629041969.821497671:start:configure           : host-autoconf
+1629041971.200649597:end  :configure           : host-autoconf
+1629041971.218443894:start:build               : host-autoconf
+1629041971.740719474:end  :build               : host-autoconf
+1629041971.759262666:start:install-host        : host-autoconf
+1629041971.896617391:end  :install-host        : host-autoconf
+1629041971.994552901:start:download            : host-automake
+1629041979.278308447:end  :download            : host-automake
+1629041979.293361283:start:extract             : host-automake
+1629041979.391193767:end  :extract             : host-automake
+1629041979.406622712:start:patch               : host-automake
+1629041979.433452646:end  :patch               : host-automake
+1629041979.449735795:start:configure           : host-automake
+1629041980.663696469:end  :configure           : host-automake
+1629041980.679029596:start:build               : host-automake
+1629041980.849553093:end  :build               : host-automake
+1629041980.870313508:start:install-host        : host-automake
+1629041980.994518795:end  :install-host        : host-automake
+1629041981.117673489:start:download            : host-fakeroot
+1629041988.363803766:end  :download            : host-fakeroot
+1629041988.380128607:start:extract             : host-fakeroot
+1629041988.387861907:end  :extract             : host-fakeroot
+1629041988.403521080:start:patch               : host-fakeroot
+1629041988.441820646:end  :patch               : host-fakeroot
+1629041988.459366103:start:configure           : host-fakeroot
+1629041997.134465280:end  :configure           : host-fakeroot
+1629041997.150878320:start:build               : host-fakeroot
+1629041997.812248044:end  :build               : host-fakeroot
+1629041997.828446119:start:install-host        : host-fakeroot
+1629041997.929117898:end  :install-host        : host-fakeroot
+1629041998.041026006:start:download            : host-makedevs
+1629041998.043532122:end  :download            : host-makedevs
+1629041998.058682388:start:extract             : host-makedevs
+1629041998.063743343:end  :extract             : host-makedevs
+1629041998.079824037:start:patch               : host-makedevs
+1629041998.087541283:end  :patch               : host-makedevs
+1629041998.103657013:start:configure           : host-makedevs
+1629041998.111070165:end  :configure           : host-makedevs
+1629041998.132515467:start:build               : host-makedevs
+1629041998.245121101:end  :build               : host-makedevs
+1629041998.260594146:start:install-host        : host-makedevs
+1629041998.263717169:end  :install-host        : host-makedevs
+1629041998.376565922:start:download            : host-mkpasswd
+1629041998.379702450:end  :download            : host-mkpasswd
+1629041998.402589810:start:extract             : host-mkpasswd
+1629041998.407633342:end  :extract             : host-mkpasswd
+1629041998.434226345:start:patch               : host-mkpasswd
+1629041998.444889969:end  :patch               : host-mkpasswd
+1629041998.469900752:start:configure           : host-mkpasswd
+1629041998.477965294:end  :configure           : host-mkpasswd
+1629041998.493954244:start:build               : host-mkpasswd
+1629041998.593515223:end  :build               : host-mkpasswd
+1629041998.611060224:start:install-host        : host-mkpasswd
+1629041998.614581530:end  :install-host        : host-mkpasswd
+1629041998.712262775:start:download            : host-binutils
+1629042038.924194958:end  :download            : host-binutils
+1629042038.947715701:start:extract             : host-binutils
+1629042041.091589579:end  :extract             : host-binutils
+1629042041.107953437:start:patch               : host-binutils
+1629042041.289657105:end  :patch               : host-binutils
+1629042041.307594373:start:configure           : host-binutils
+1629042042.352154094:end  :configure           : host-binutils
+1629042042.368400372:start:build               : host-binutils
+1629042087.340565621:end  :build               : host-binutils
+1629042087.363287789:start:install-host        : host-binutils
+1629042087.913090278:end  :install-host        : host-binutils
+1629042088.081228715:start:download            : host-gmp
+1629042095.051732732:end  :download            : host-gmp
+1629042095.067478823:start:extract             : host-gmp
+1629042095.203669757:end  :extract             : host-gmp
+1629042095.220149138:start:patch               : host-gmp
+1629042095.250991387:end  :patch               : host-gmp
+1629042095.267750367:start:configure           : host-gmp
+1629042102.763179886:end  :configure           : host-gmp
+1629042102.780959817:start:build               : host-gmp
+1629042122.409494242:end  :build               : host-gmp
+1629042122.434704116:start:install-host        : host-gmp
+1629042122.626364297:end  :install-host        : host-gmp
+1629042122.773712162:start:download            : host-mpfr
+1629042132.462552491:end  :download            : host-mpfr
+1629042132.487543428:start:extract             : host-mpfr
+1629042132.599970222:end  :extract             : host-mpfr
+1629042132.623657256:start:patch               : host-mpfr
+1629042132.650009527:end  :patch               : host-mpfr
+1629042132.671647203:start:configure           : host-mpfr
+1629042136.578040080:end  :configure           : host-mpfr
+1629042136.604054151:start:build               : host-mpfr
+1629042150.098137843:end  :build               : host-mpfr
+1629042150.119781070:start:install-host        : host-mpfr
+1629042150.228929579:end  :install-host        : host-mpfr
+1629042150.370876071:start:download            : host-mpc
+1629042156.853728090:end  :download            : host-mpc
+1629042156.869815128:start:extract             : host-mpc
+1629042156.898893878:end  :extract             : host-mpc
+1629042156.917552396:start:patch               : host-mpc
+1629042156.942822500:end  :patch               : host-mpc
+1629042156.966463132:start:configure           : host-mpc
+1629042158.844612737:end  :configure           : host-mpc
+1629042158.861406337:start:build               : host-mpc
+1629042161.619545283:end  :build               : host-mpc
+1629042161.634532555:start:install-host        : host-mpc
+1629042161.740049541:end  :install-host        : host-mpc
+1629042161.894394820:start:download            : host-gcc-initial
+1629042169.859158614:end  :download            : host-gcc-initial
+1629042169.882764707:start:extract             : host-gcc-initial
+1629042176.307393899:end  :extract             : host-gcc-initial
+1629042176.324830004:start:patch               : host-gcc-initial
+1629042177.162502371:end  :patch               : host-gcc-initial
+1629042177.184774777:start:configure           : host-gcc-initial
+1629042178.650731092:end  :configure           : host-gcc-initial
+1629042178.667942702:start:build               : host-gcc-initial
+1629042529.119916523:end  :build               : host-gcc-initial
+1629042529.136798721:start:install-host        : host-gcc-initial
+1629042531.716233633:end  :install-host        : host-gcc-initial
+1629042531.937860638:start:download            : skeleton-init-common
+1629042531.941028042:end  :download            : skeleton-init-common
+1629042531.957365456:start:extract             : skeleton-init-common
+1629042531.961488489:end  :extract             : skeleton-init-common
+1629042531.984918950:start:patch               : skeleton-init-common
+1629042532.004167535:end  :patch               : skeleton-init-common
+1629042532.024822469:start:configure           : skeleton-init-common
+1629042532.036398908:end  :configure           : skeleton-init-common
+1629042532.065728448:start:build               : skeleton-init-common
+1629042532.067739214:end  :build               : skeleton-init-common
+1629042532.087873087:start:install-staging     : skeleton-init-common
+1629042532.108194473:end  :install-staging     : skeleton-init-common
+1629042532.125463922:start:install-target      : skeleton-init-common
+1629042532.138658188:end  :install-target      : skeleton-init-common
+1629042532.209178242:start:download            : skeleton-init-sysv
+1629042532.211993202:end  :download            : skeleton-init-sysv
+1629042532.230433817:start:extract             : skeleton-init-sysv
+1629042532.233777714:end  :extract             : skeleton-init-sysv
+1629042532.248814980:start:patch               : skeleton-init-sysv
+1629042532.255881726:end  :patch               : skeleton-init-sysv
+1629042532.273079922:start:configure           : skeleton-init-sysv
+1629042532.285426681:end  :configure           : skeleton-init-sysv
+1629042532.301630435:start:build               : skeleton-init-sysv
+1629042532.303312662:end  :build               : skeleton-init-sysv
+1629042532.319187355:start:install-target      : skeleton-init-sysv
+1629042532.324513214:end  :install-target      : skeleton-init-sysv
+1629042532.378549648:start:download            : skeleton
+1629042532.382878729:end  :download            : skeleton
+1629042532.399197539:start:extract             : skeleton
+1629042532.402592030:end  :extract             : skeleton
+1629042532.421224978:start:patch               : skeleton
+1629042532.428416239:end  :patch               : skeleton
+1629042532.446142348:start:configure           : skeleton
+1629042532.457915548:end  :configure           : skeleton
+1629042532.480169233:start:build               : skeleton
+1629042532.481844958:end  :build               : skeleton
+1629042532.496553215:start:install-target      : skeleton
+1629042532.499391380:end  :install-target      : skeleton
+1629042532.548526473:start:download            : linux-headers
+1629042563.272277508:end  :download            : linux-headers
+1629042563.289234095:start:extract             : linux-headers
+1629042571.951415725:end  :extract             : linux-headers
+1629042571.969364058:start:patch               : linux-headers
+1629042572.208324612:end  :patch               : linux-headers
+1629042572.225832105:start:configure           : linux-headers
+1629042579.229302777:end  :configure           : linux-headers
+1629042579.244896908:start:build               : linux-headers
+1629042579.246907539:end  :build               : linux-headers
+1629042579.268483438:start:install-staging     : linux-headers
+1629042579.662075599:end  :install-staging     : linux-headers
+1629042579.676871425:start:install-target      : linux-headers
+1629042579.679920454:end  :install-target      : linux-headers
+1629042579.736021836:start:download            : uclibc
+1629042584.719008185:end  :download            : uclibc
+1629042584.736254445:start:extract             : uclibc
+1629042584.895991666:end  :extract             : uclibc
+1629042584.914682019:start:patch               : uclibc
+1629042584.941491662:end  :patch               : uclibc
+1629042587.420378579:start:configure           : uclibc
+1629042587.437688380:end  :configure           : uclibc
+1629042587.456870873:start:build               : uclibc
+1629042650.861988688:end  :build               : uclibc
+1629042650.885890749:start:install-staging     : uclibc
+1629042652.747580509:end  :install-staging     : uclibc
+1629042652.770975835:start:install-target      : uclibc
+1629042655.577064540:end  :install-target      : uclibc
+1629042655.654861156:start:download            : host-gcc-final
+1629042655.873504090:end  :download            : host-gcc-final
+1629042655.889116201:start:extract             : host-gcc-final
+1629042662.533774859:end  :extract             : host-gcc-final
+1629042662.556205641:start:patch               : host-gcc-final
+1629042663.325811559:end  :patch               : host-gcc-final
+1629042663.344805220:start:configure           : host-gcc-final
+1629042664.879796474:end  :configure           : host-gcc-final
+1629042664.897711340:start:build               : host-gcc-final
+1629043042.570243979:end  :build               : host-gcc-final
+1629043042.597380943:start:install-host        : host-gcc-final
+1629043045.495186587:end  :install-host        : host-gcc-final
+1629043045.710718208:start:download            : toolchain-buildroot
+1629043045.713148212:end  :download            : toolchain-buildroot
+1629043045.727893385:start:extract             : toolchain-buildroot
+1629043045.731212975:end  :extract             : toolchain-buildroot
+1629043045.745624406:start:patch               : toolchain-buildroot
+1629043045.753243925:end  :patch               : toolchain-buildroot
+1629043045.769401985:start:configure           : toolchain-buildroot
+1629043045.784387994:end  :configure           : toolchain-buildroot
+1629043045.800548650:start:build               : toolchain-buildroot
+1629043045.802282975:end  :build               : toolchain-buildroot
+1629043045.818458028:start:install-target      : toolchain-buildroot
+1629043045.820884687:end  :install-target      : toolchain-buildroot
+1629043045.888941718:start:download            : toolchain
+1629043045.891464148:end  :download            : toolchain
+1629043045.908264685:start:extract             : toolchain
+1629043045.912058094:end  :extract             : toolchain
+1629043045.931224204:start:patch               : toolchain
+1629043045.940751078:end  :patch               : toolchain
+1629043045.965320287:start:configure           : toolchain
+1629043045.987808483:end  :configure           : toolchain
+1629043046.006858755:start:build               : toolchain
+1629043046.008565900:end  :build               : toolchain
+1629043046.024737746:start:install-staging     : toolchain
+1629043046.033631991:end  :install-staging     : toolchain
+1629043046.054651584:start:install-target      : toolchain
+1629043046.056915163:end  :install-target      : toolchain
+1629043046.115918167:start:download            : gzip
+1629043065.906391984:end  :download            : gzip
+1629043065.930454708:start:extract             : gzip
+1629043065.991235496:end  :extract             : gzip
+1629043066.013888588:start:patch               : gzip
+1629043066.043805556:end  :patch               : gzip
+1629043066.064760901:start:configure           : gzip
+1629043071.378785716:end  :configure           : gzip
+1629043071.401443197:start:build               : gzip
+1629043073.936308914:end  :build               : gzip
+1629043073.952680111:start:install-target      : gzip
+1629043074.085187142:end  :install-target      : gzip
+1629043074.218701042:start:download            : host-cmake
+1629043075.298196532:end  :download            : host-cmake
+1629043075.321749580:start:extract             : host-cmake
+1629043075.780427816:end  :extract             : host-cmake
+1629043075.797039008:start:patch               : host-cmake
+1629043075.863541787:end  :patch               : host-cmake
+1629043075.886235627:start:configure           : host-cmake
+1629043199.108810574:end  :configure           : host-cmake
+1629043199.129874608:start:build               : host-cmake
+1629043456.027952979:end  :build               : host-cmake
+1629043456.045693004:start:install-host        : host-cmake
+1629043456.459598076:end  :install-host        : host-cmake
+1629043456.694831812:start:download            : host-pkgconf
+1629043475.179169971:end  :download            : host-pkgconf
+1629043475.203411963:start:extract             : host-pkgconf
+1629043475.233366362:end  :extract             : host-pkgconf
+1629043475.257823568:start:patch               : host-pkgconf
+1629043475.288196822:end  :patch               : host-pkgconf
+1629043475.304699026:start:configure           : host-pkgconf
+1629043477.514891908:end  :configure           : host-pkgconf
+1629043477.535822260:start:build               : host-pkgconf
+1629043479.360301335:end  :build               : host-pkgconf
+1629043479.391255352:start:install-host        : host-pkgconf
+1629043479.503058116:end  :install-host        : host-pkgconf
+1629043479.712646440:start:download            : host-ninja
+1629043480.690922369:end  :download            : host-ninja
+1629043480.707694202:start:extract             : host-ninja
+1629043480.719937240:end  :extract             : host-ninja
+1629043480.744105038:start:patch               : host-ninja
+1629043480.755467123:end  :patch               : host-ninja
+1629043480.779659406:start:configure           : host-ninja
+1629043481.651748717:end  :configure           : host-ninja
+1629043481.667955331:start:build               : host-ninja
+1629043487.701488149:end  :build               : host-ninja
+1629043487.722319063:start:install-host        : host-ninja
+1629043487.725531359:end  :install-host        : host-ninja
+1629043487.930669913:start:download            : host-autoconf-archive
+1629043494.739988998:end  :download            : host-autoconf-archive
+1629043494.756069934:start:extract             : host-autoconf-archive
+1629043494.812287103:end  :extract             : host-autoconf-archive
+1629043494.828108310:start:patch               : host-autoconf-archive
+1629043494.843829781:end  :patch               : host-autoconf-archive
+1629043494.859348502:start:configure           : host-autoconf-archive
+1629043496.199417323:end  :configure           : host-autoconf-archive
+1629043496.220536203:start:build               : host-autoconf-archive
+1629043496.236876968:end  :build               : host-autoconf-archive
+1629043496.258209739:start:install-host        : host-autoconf-archive
+1629043496.329423653:end  :install-host        : host-autoconf-archive
+1629043496.541225123:start:download            : host-expat
+1629043497.145157187:end  :download            : host-expat
+1629043497.161232063:start:extract             : host-expat
+1629043497.201632307:end  :extract             : host-expat
+1629043497.218785094:start:patch               : host-expat
+1629043497.254101848:end  :patch               : host-expat
+1629043497.278091536:start:configure           : host-expat
+1629043500.011300914:end  :configure           : host-expat
+1629043500.036501176:start:build               : host-expat
+1629043502.799695981:end  :build               : host-expat
+1629043502.819316213:start:install-host        : host-expat
+1629043502.959188364:end  :install-host        : host-expat
+1629043503.179065950:start:download            : host-libffi
+1629043504.269348255:end  :download            : host-libffi
+1629043504.290192976:start:extract             : host-libffi
+1629043504.317014634:end  :extract             : host-libffi
+1629043504.342157061:start:patch               : host-libffi
+1629043504.388085159:end  :patch               : host-libffi
+1629043504.406759086:start:configure           : host-libffi
+1629043512.291163301:end  :configure           : host-libffi
+1629043512.307036105:start:build               : host-libffi
+1629043512.988329573:end  :build               : host-libffi
+1629043513.011331349:start:install-host        : host-libffi
+1629043513.163067883:end  :install-host        : host-libffi
+1629043513.377840780:start:download            : host-libzlib
+1629043513.513391291:end  :download            : host-libzlib
+1629043513.536567255:start:extract             : host-libzlib
+1629043513.579140919:end  :extract             : host-libzlib
+1629043513.597218583:start:patch               : host-libzlib
+1629043513.607101945:end  :patch               : host-libzlib
+1629043513.634853256:start:configure           : host-libzlib
+1629043513.906398021:end  :configure           : host-libzlib
+1629043513.925489428:start:build               : host-libzlib
+1629043517.396440138:end  :build               : host-libzlib
+1629043517.412845224:start:install-host        : host-libzlib
+1629043517.429174278:end  :install-host        : host-libzlib
+1629043517.636671707:start:download            : host-zlib
+1629043517.639057826:end  :download            : host-zlib
+1629043517.654410496:start:extract             : host-zlib
+1629043517.657884257:end  :extract             : host-zlib
+1629043517.673260171:start:patch               : host-zlib
+1629043517.681034215:end  :patch               : host-zlib
+1629043517.697047977:start:configure           : host-zlib
+1629043517.720125839:end  :configure           : host-zlib
+1629043517.741287725:start:build               : host-zlib
+1629043517.743336310:end  :build               : host-zlib
+1629043517.765931076:start:install-host        : host-zlib
+1629043517.767618183:end  :install-host        : host-zlib
+1629043517.986182117:start:download            : host-python3
+1629043537.113895542:end  :download            : host-python3
+1629043537.133842099:start:extract             : host-python3
+1629043538.290087583:end  :extract             : host-python3
+1629043538.306245415:start:patch               : host-python3
+1629043538.504479398:end  :patch               : host-python3
+1629043538.530332118:start:configure           : host-python3
+1629043557.702562492:end  :configure           : host-python3
+1629043557.731479763:start:build               : host-python3
+1629043634.593084245:end  :build               : host-python3
+1629043634.621006447:start:install-host        : host-python3
+1629043640.010321075:end  :install-host        : host-python3
+1629043640.290017852:start:download            : host-python3-setuptools
+1629043650.577356341:end  :download            : host-python3-setuptools
+1629043650.593819449:start:extract             : host-python3-setuptools
+1629043650.630337151:end  :extract             : host-python3-setuptools
+1629043650.653625187:start:patch               : host-python3-setuptools
+1629043650.675796894:end  :patch               : host-python3-setuptools
+1629043650.699537582:start:configure           : host-python3-setuptools
+1629043650.736367060:end  :configure           : host-python3-setuptools
+1629043650.770588292:start:build               : host-python3-setuptools
+1629043651.109297298:end  :build               : host-python3-setuptools
+1629043651.135015818:start:install-host        : host-python3-setuptools
+1629043651.656483626:end  :install-host        : host-python3-setuptools
+1629043651.928160345:start:download            : host-meson
+1629043652.426360372:end  :download            : host-meson
+1629043652.441959997:start:extract             : host-meson
+1629043652.557317167:end  :extract             : host-meson
+1629043652.577594000:start:patch               : host-meson
+1629043652.618835851:end  :patch               : host-meson
+1629043652.636805404:start:configure           : host-meson
+1629043652.665872643:end  :configure           : host-meson
+1629043652.681972088:start:build               : host-meson
+1629043652.932358194:end  :build               : host-meson
+1629043652.951202091:start:install-host        : host-meson
+1629043653.791136105:end  :install-host        : host-meson
+1629043654.056840915:start:download            : iputils
+1629043655.168502890:end  :download            : iputils
+1629043655.186305019:start:extract             : iputils
+1629043655.200214514:end  :extract             : iputils
+1629043655.221310490:start:patch               : iputils
+1629043655.229338503:end  :patch               : iputils
+1629043655.251548194:start:configure           : iputils
+1629043656.163535189:end  :configure           : iputils
+1629043656.179501896:start:build               : iputils
+1629043657.529319608:end  :build               : iputils
+1629043657.544984017:start:install-target      : iputils
+1629043658.067685175:end  :install-target      : iputils
+1629043658.157885606:start:download            : wget
+1629043665.789173628:end  :download            : wget
+1629043665.816585872:start:download            : host-lzip
+1629043669.574830823:end  :download            : host-lzip
+1629043669.591835327:start:extract             : host-lzip
+1629043669.604185644:end  :extract             : host-lzip
+1629043669.623597058:start:patch               : host-lzip
+1629043669.634448005:end  :patch               : host-lzip
+1629043669.659177975:start:configure           : host-lzip
+1629043669.733135308:end  :configure           : host-lzip
+1629043669.749377759:start:build               : host-lzip
+1629043671.794673402:end  :build               : host-lzip
+1629043671.818020901:start:install-host        : host-lzip
+1629043671.826948220:end  :install-host        : host-lzip
+1629043672.060793601:start:extract             : wget
+1629043672.276743976:end  :extract             : wget
+1629043672.294984627:start:patch               : wget
+1629043672.340987607:end  :patch               : wget
+1629043672.361224415:start:configure           : wget
+1629043683.518023999:end  :configure           : wget
+1629043683.535473827:start:build               : wget
+1629043691.070522770:end  :build               : wget
+1629043691.095031016:start:install-target      : wget
+1629043691.273771427:end  :install-target      : wget
+1629043691.353141806:start:download            : busybox
+1629043726.266025521:end  :download            : busybox
+1629043726.281676279:start:extract             : busybox
+1629043726.586373208:end  :extract             : busybox
+1629043726.607009582:start:patch               : busybox
+1629043726.630903361:end  :patch               : busybox
+1629043733.484456863:start:configure           : busybox
+1629043733.516922686:end  :configure           : busybox
+1629043733.533660584:start:build               : busybox
+1629043753.731588320:end  :build               : busybox
+1629043753.751664953:start:install-target      : busybox
+1629043755.303809024:end  :install-target      : busybox
+1629043755.424277622:start:download            : dhcpcd
+1629043755.733268675:end  :download            : dhcpcd
+1629043755.755756951:start:extract             : dhcpcd
+1629043755.781755890:end  :extract             : dhcpcd
+1629043755.804860047:start:patch               : dhcpcd
+1629043755.861345045:end  :patch               : dhcpcd
+1629043755.884140940:start:configure           : dhcpcd
+1629043756.455976522:end  :configure           : dhcpcd
+1629043756.481394526:start:build               : dhcpcd
+1629043759.721419517:end  :build               : dhcpcd
+1629043759.738778744:start:install-target      : dhcpcd
+1629043759.768914597:end  :install-target      : dhcpcd
+1629043759.881607218:start:download            : ifupdown-scripts
+1629043759.884497192:end  :download            : ifupdown-scripts
+1629043759.901661312:start:extract             : ifupdown-scripts
+1629043759.905684329:end  :extract             : ifupdown-scripts
+1629043759.925637852:start:patch               : ifupdown-scripts
+1629043759.933226626:end  :patch               : ifupdown-scripts
+1629043759.949324989:start:configure           : ifupdown-scripts
+1629043759.985536785:end  :configure           : ifupdown-scripts
+1629043760.002166357:start:build               : ifupdown-scripts
+1629043760.003853586:end  :build               : ifupdown-scripts
+1629043760.021111452:start:install-target      : ifupdown-scripts
+1629043760.032220928:end  :install-target      : ifupdown-scripts
+1629043760.142927059:start:download            : initscripts
+1629043760.146593025:end  :download            : initscripts
+1629043760.166861842:start:extract             : initscripts
+1629043760.170549088:end  :extract             : initscripts
+1629043760.187127834:start:patch               : initscripts
+1629043760.195743233:end  :patch               : initscripts
+1629043760.212849654:start:configure           : initscripts
+1629043760.249248153:end  :configure           : initscripts
+1629043760.265989035:start:build               : initscripts
+1629043760.267682295:end  :build               : initscripts
+1629043760.283740131:start:install-target      : initscripts
+1629043760.288490658:end  :install-target      : initscripts
+1629043760.383399516:start:download            : host-patchelf
+1629043807.045888208:end  :download            : host-patchelf
+1629043807.068929869:start:extract             : host-patchelf
+1629043807.095068167:end  :extract             : host-patchelf
+1629043807.113727169:start:patch               : host-patchelf
+1629043807.182448081:end  :patch               : host-patchelf
+1629043807.205781083:start:configure           : host-patchelf
+1629043808.461991060:end  :configure           : host-patchelf
+1629043808.482859477:start:build               : host-patchelf
+1629043810.643571048:end  :build               : host-patchelf
+1629043810.660205165:start:install-host        : host-patchelf
+1629043810.685244312:end  :install-host        : host-patchelf
+1629043810.926415208:start:download            : urandom-scripts
+1629043810.929091944:end  :download            : urandom-scripts
+1629043810.952277247:start:extract             : urandom-scripts
+1629043810.955528413:end  :extract             : urandom-scripts
+1629043810.971426915:start:patch               : urandom-scripts
+1629043810.978846798:end  :patch               : urandom-scripts
+1629043810.995856875:start:configure           : urandom-scripts
+1629043811.028147117:end  :configure           : urandom-scripts
+1629043811.043272102:start:build               : urandom-scripts
+1629043811.045099264:end  :build               : urandom-scripts
+1629043811.066745418:start:install-target      : urandom-scripts
+1629043811.072789569:end  :install-target      : urandom-scripts
+1629043811.168887320:start:download            : host-xz
+1629043815.989799847:end  :download            : host-xz
+1629043816.005882738:start:extract             : host-xz
+1629043816.206907620:end  :extract             : host-xz
+1629043816.229120243:start:patch               : host-xz
+1629043816.258069632:end  :patch               : host-xz
+1629043816.282805451:start:configure           : host-xz
+1629043820.239852039:end  :configure           : host-xz
+1629043820.262731330:start:build               : host-xz
+1629043825.403406009:end  :build               : host-xz
+1629043825.418321362:start:install-host        : host-xz
+1629043825.752931400:end  :install-host        : host-xz
+1629046612.776508467:start:configure           : host-libzlib
+1629046613.216827168:end  :configure           : host-libzlib
+1629046613.250260648:start:build               : host-libzlib
+1629046617.062320273:end  :build               : host-libzlib
+1629046617.085958292:start:install-host        : host-libzlib
+1629046617.104620566:end  :install-host        : host-libzlib

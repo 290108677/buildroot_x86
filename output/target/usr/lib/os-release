@@ -1,0 +1,5 @@
+NAME=Buildroot
+VERSION=-gb21bef456
+ID=buildroot
+VERSION_ID=2021.05.1
+PRETTY_NAME="Buildroot 2021.05.1"

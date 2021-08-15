@@ -1,0 +1,11 @@
+/root/buildroot-2021.05.1/package/dhcpcd/0001-src-privsep-linux.c-add-support-for-nds32-21.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0002-src-privsep-linux.c-add-support-for-xtensa-22.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0003-Linux-Add-support-for-NDS32BE-SECCOMP.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0004-Typo-with-prior.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0005-src-privsep-linux.c-add-support-for-nios2-23.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0006-src-privsep-linux.c-add-support-for-microblaze-24.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0007-src-privsep-linux.c-add-support-for-sh-25.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0008-src-privsep-linux-fix-build-on-sparc-26.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0009-src-privsep-linux.c-add-support-for-or1k-27.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0010-src-privsep-linux.c-add-support-for-arc-28.patch
+/root/buildroot-2021.05.1/package/dhcpcd/0011-src-privsep-linux.c-add-support-for-m68k.patch

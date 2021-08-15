@@ -1,0 +1,7 @@
+host-fakeroot,./share/man/man1/faked.1
+host-fakeroot,./share/man/man1/fakeroot.1
+host-fakeroot,./bin/fakeroot
+host-fakeroot,./lib/libfakeroot-0.so
+host-fakeroot,./lib/libfakeroot.so
+host-fakeroot,./lib/libfakeroot.la
+host-fakeroot,./bin/faked

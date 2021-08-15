@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+chown -h -R 0:0 /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target
+/root/buildroot-2021.05.1/output/host/bin/makedevs -d /root/buildroot-2021.05.1/output/build/buildroot-fs/full_devices_table.txt /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target
+   	if [ ! -e /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target/init ]; then /usr/bin/install -m 0755 fs/cpio/init /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target/init; fi
+	mkdir -p /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target/dev
+	mknod -m 0622 /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target/dev/console c 5 1
+   
+   
+   	cd /root/buildroot-2021.05.1/output/build/buildroot-fs/cpio/target && find . | LC_ALL=C sort | cpio  --quiet -o -H newc > /root/buildroot-2021.05.1/output/images/rootfs.cpio

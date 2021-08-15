@@ -1,0 +1,12 @@
+avx_resms64x_s.o: ../../../libgcc/config/i386/avx_resms64x.S \
+ ../../../libgcc/config/i386/resms64x.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/cet.h \
+ ../../../libgcc/config/i386/i386-asm.h auto-target.h
+
+../../../libgcc/config/i386/resms64x.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/cet.h:
+
+../../../libgcc/config/i386/i386-asm.h:
+
+auto-target.h:

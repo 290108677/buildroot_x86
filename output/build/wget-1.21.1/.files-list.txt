@@ -1,0 +1,4 @@
+wget,./usr/bin/wget
+wget,./usr/share/man/man1/wget.1
+wget,./etc/wgetrc
+wget,./usr/share/info/wget.info

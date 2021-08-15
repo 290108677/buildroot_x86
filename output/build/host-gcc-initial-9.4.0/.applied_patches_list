@@ -1,0 +1,5 @@
+/root/buildroot-2021.05.1/package/gcc/9.4.0/0001-or1k-Fix-issue-with-set_got-clobbering-LR-r9.patch
+/root/buildroot-2021.05.1/package/gcc/9.4.0/0002-gcc-define-_REENTRANT-for-OpenRISC-when-pthread-is-p.patch
+/root/buildroot-2021.05.1/package/gcc/9.4.0/0003-Revert-re-PR-target-92095-internal-error-with-O1-mcp.patch
+/root/buildroot-2021.05.1/package/gcc/9.4.0/0004-or1k-Add-mcmodel-option-to-handle-large-GOTs.patch
+/root/buildroot-2021.05.1/package/gcc/9.4.0/0005-or1k-Use-cmodel-large-when-building-crtstuff.patch

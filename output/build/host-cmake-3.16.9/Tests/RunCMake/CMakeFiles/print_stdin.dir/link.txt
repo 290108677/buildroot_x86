@@ -1,0 +1,1 @@
+/usr/bin/gcc -O2  -L/root/buildroot-2021.05.1/output/host/lib -Wl,-rpath,/root/buildroot-2021.05.1/output/host/lib CMakeFiles/print_stdin.dir/print_stdin.c.o  -o print_stdin 

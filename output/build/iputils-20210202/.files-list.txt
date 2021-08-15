@@ -1,0 +1,9 @@
+iputils,./etc/init.d/ninfod.sh
+iputils,./bin/ping
+iputils,./usr/bin/tracepath
+iputils,./usr/bin/traceroute6
+iputils,./usr/bin/clockdiff
+iputils,./usr/sbin/arping
+iputils,./usr/sbin/rdisc
+iputils,./usr/sbin/ninfod
+iputils,./bin/ping6

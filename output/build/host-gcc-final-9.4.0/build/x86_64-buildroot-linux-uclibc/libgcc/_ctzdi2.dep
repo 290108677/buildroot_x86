@@ -1,0 +1,276 @@
+_ctzdi2.o: ../../../libgcc/libgcc2.c ../.././gcc/tconfig.h \
+ ../.././gcc/auto-host.h ../../../libgcc/../include/ansidecl.h \
+ ../../../libgcc/../gcc/tsystem.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/stddef.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/float.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/stdarg.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/stdio.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/features.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/cdefs.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/types.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/wordsize.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/typesizes.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/wchar.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/wchar.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/types.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/time.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/endian.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/endian.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/byteswap.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/select.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/select.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/sigset.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/time.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/sysmacros.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/errno.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/errno.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/linux/errno.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm/errno.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm-generic/errno.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm-generic/errno-base.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/string.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/stdlib.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/waitflags.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/waitstatus.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/alloca.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/unistd.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix_opt.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_posix_opt.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/environments.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/confname.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/getopt.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include-fixed/limits.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include-fixed/syslimits.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/limits.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/local_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/linux/limits.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h \
+ /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h \
+ ../../../libgcc/../include/filenames.h \
+ ../../../libgcc/../include/hashtab.h \
+ ../../../libgcc/../include/ansidecl.h ../../../libgcc/../gcc/coretypes.h \
+ ../.././gcc/tm.h ../.././gcc/options.h \
+ ../../../libgcc/../gcc/flag-types.h \
+ ../../../libgcc/../gcc/config/i386/i386-opts.h \
+ ../../../libgcc/../gcc/config/i386/stringop.def \
+ ../.././gcc/insn-constants.h \
+ ../../../libgcc/../gcc/config/vxworks-dummy.h \
+ ../../../libgcc/../gcc/config/i386/biarch64.h \
+ ../../../libgcc/../gcc/config/i386/i386.h \
+ ../../../libgcc/../gcc/config/i386/x86-tune.def \
+ ../../../libgcc/../gcc/config/i386/unix.h \
+ ../../../libgcc/../gcc/config/i386/att.h \
+ ../../../libgcc/../gcc/config/dbxelf.h \
+ ../../../libgcc/../gcc/config/elfos.h \
+ ../../../libgcc/../gcc/config/gnu-user.h \
+ ../../../libgcc/../gcc/config/glibc-stdint.h \
+ ../../../libgcc/../gcc/config/i386/x86-64.h \
+ ../../../libgcc/../gcc/config/i386/gnu-user-common.h \
+ ../../../libgcc/../gcc/config/i386/gnu-user64.h \
+ ../../../libgcc/../gcc/config/linux.h \
+ ../../../libgcc/../gcc/config/linux-android.h \
+ ../../../libgcc/../gcc/config/i386/linux-common.h \
+ ../../../libgcc/../gcc/config/i386/linux64.h \
+ ../../../libgcc/../gcc/config/initfini-array.h ../.././gcc/insn-modes.h \
+ ../../../libgcc/../gcc/defaults.h libgcc_tm.h \
+ ../../../libgcc/config/i386/elf-lib.h \
+ ../../../libgcc/config/i386/value-unwind.h ../../../libgcc/libgcc2.h \
+ ../../../libgcc/../include/longlong.h
+
+../.././gcc/tconfig.h:
+
+../.././gcc/auto-host.h:
+
+../../../libgcc/../include/ansidecl.h:
+
+../../../libgcc/../gcc/tsystem.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/stddef.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/float.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/stdarg.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/stdio.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/features.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_config.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/cdefs.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/types.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/wordsize.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/typesizes.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_stdio.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/wchar.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/wchar.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/pthreadtypes.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/stdio_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/types.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/time.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/endian.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/endian.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/byteswap.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-common.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/byteswap-16.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/select.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/select.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/sigset.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/time.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/sys/sysmacros.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/errno.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/errno.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/linux/errno.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm/errno.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm-generic/errno.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/asm-generic/errno-base.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/string.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/stdlib.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/waitflags.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/waitstatus.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/alloca.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/unistd.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix_opt.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_posix_opt.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/environments.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/confname.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/getopt.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include-fixed/limits.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include-fixed/syslimits.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/limits.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix1_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/local_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/linux/limits.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_local_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/posix2_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/xopen_lim.h:
+
+/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/include/bits/uClibc_clk_tck.h:
+
+../../../libgcc/../include/filenames.h:
+
+../../../libgcc/../include/hashtab.h:
+
+../../../libgcc/../include/ansidecl.h:
+
+../../../libgcc/../gcc/coretypes.h:
+
+../.././gcc/tm.h:
+
+../.././gcc/options.h:
+
+../../../libgcc/../gcc/flag-types.h:
+
+../../../libgcc/../gcc/config/i386/i386-opts.h:
+
+../../../libgcc/../gcc/config/i386/stringop.def:
+
+../.././gcc/insn-constants.h:
+
+../../../libgcc/../gcc/config/vxworks-dummy.h:
+
+../../../libgcc/../gcc/config/i386/biarch64.h:
+
+../../../libgcc/../gcc/config/i386/i386.h:
+
+../../../libgcc/../gcc/config/i386/x86-tune.def:
+
+../../../libgcc/../gcc/config/i386/unix.h:
+
+../../../libgcc/../gcc/config/i386/att.h:
+
+../../../libgcc/../gcc/config/dbxelf.h:
+
+../../../libgcc/../gcc/config/elfos.h:
+
+../../../libgcc/../gcc/config/gnu-user.h:
+
+../../../libgcc/../gcc/config/glibc-stdint.h:
+
+../../../libgcc/../gcc/config/i386/x86-64.h:
+
+../../../libgcc/../gcc/config/i386/gnu-user-common.h:
+
+../../../libgcc/../gcc/config/i386/gnu-user64.h:
+
+../../../libgcc/../gcc/config/linux.h:
+
+../../../libgcc/../gcc/config/linux-android.h:
+
+../../../libgcc/../gcc/config/i386/linux-common.h:
+
+../../../libgcc/../gcc/config/i386/linux64.h:
+
+../../../libgcc/../gcc/config/initfini-array.h:
+
+../.././gcc/insn-modes.h:
+
+../../../libgcc/../gcc/defaults.h:
+
+libgcc_tm.h:
+
+../../../libgcc/config/i386/elf-lib.h:
+
+../../../libgcc/config/i386/value-unwind.h:
+
+../../../libgcc/libgcc2.h:
+
+../../../libgcc/../include/longlong.h:

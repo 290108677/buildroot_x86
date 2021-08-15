@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/_CMakeLTOTest-C/src/main.c
+

@@ -1,0 +1,4 @@
+morestack_s.o: ../../../libgcc/config/i386/morestack.S \
+ /root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/cet.h
+
+/root/buildroot-2021.05.1/output/build/host-gcc-final-9.4.0/build/gcc/include/cet.h:

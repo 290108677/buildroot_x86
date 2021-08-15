@@ -1,0 +1,9 @@
+uclibc,./lib/ld64-uClibc.so.0
+uclibc,./lib/ld64-uClibc.so.1
+uclibc,./lib/libc.so.0
+uclibc,./lib/libc.so.1
+uclibc,./lib/libuClibc-1.0.38.so
+uclibc,./lib/ld64-uClibc-1.0.38.so
+uclibc,./usr/bin/getconf
+uclibc,./usr/bin/ldd
+uclibc,./sbin/ldconfig

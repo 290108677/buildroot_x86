@@ -1,0 +1,3 @@
+host-lzip,./bin/lzip
+host-lzip,./share/info/lzip.info
+host-lzip,./share/man/man1/lzip.1

@@ -1,0 +1,4 @@
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir

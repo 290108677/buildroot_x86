@@ -1,0 +1,5 @@
+@set version-GCC 9.4.0
+@clear DEVELOPMENT
+@set srcdir /root/buildroot-2021.05.1/output/build/host-gcc-initial-9.4.0/build/gcc/../../gcc
+@set VERSION_PACKAGE (Buildroot 2021.05.1) 
+@set BUGURL @uref{http://bugs.buildroot.net/}

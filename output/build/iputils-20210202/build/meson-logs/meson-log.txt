@@ -1,0 +1,892 @@
+Build started at 2021-08-15T12:07:35.523115
+Main binary: /root/buildroot-2021.05.1/output/host/bin/python3
+Build Options: -Db_pie=false -Dstrip=false -Dbuild.pkg_config_path=/root/buildroot-2021.05.1/output/host/lib/pkgconfig -DBUILD_CLOCKDIFF=true -DBUILD_RARPD=false -DBUILD_RDISC=true -DBUILD_RDISC_SERVER=true -DBUILD_TRACEPATH=true -DBUILD_TRACEROUTE6=true -DBUILD_NINFOD=true -DBUILD_ARPING=true -DBUILD_PING=true -DBUILD_TFTPD=false -DUSE_CAP=false -DUSE_IDN=false -DUSE_GETTEXT=false -DBUILD_MANS=false -DBUILD_HTML_MANS=false -DNO_SETCAP_OR_SUID=true -Dprefix=/usr -Dlibdir=lib -Dbuildtype=release -Ddefault_library=shared '--cross-file /root/buildroot-2021.05.1/output/build/iputils-20210202//build/cross-compilation.conf'
+Python system: Linux
+The Meson build system
+Version: 0.57.2
+Source dir: /root/buildroot-2021.05.1/output/build/iputils-20210202
+Build dir: /root/buildroot-2021.05.1/output/build/iputils-20210202/build
+Build type: cross build
+WARNING: Unknown options: "BUILD_RDISC_SERVER"
+The value of new options can be set with:
+meson setup <builddir> --reconfigure -Dnew_option=new_value ...
+Project name: iputils
+Project version: 20210202
+Sanity testing C compiler: /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc
+Is cross compiler: True.
+Sanity check compiler command line: /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/sanitycheckc.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/sanitycheckc_cross.exe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pipe -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc (gcc 9.4.0 "x86_64-buildroot-linux-uclibc-gcc.br_real (Buildroot 2021.05.1) 9.4.0")
+C linker for the host machine: /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc ld.bfd 2.35.2
+Sanity testing C compiler: /usr/bin/gcc
+Is cross compiler: False.
+Sanity check compiler command line: /usr/bin/gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/sanitycheckc.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: /usr/bin/gcc (gcc 8.3.0 "gcc (Debian 8.3.0-6) 8.3.0")
+C linker for the build machine: /usr/bin/gcc ld.bfd 2.31.1
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: 
+Target machine cpu family: x86_64
+Target machine cpu: 
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary for 1 specified from cross file, native file, or env var as ['/root/buildroot-2021.05.1/output/host/bin/pkgconf']
+Found pkg-config: /root/buildroot-2021.05.1/output/host/bin/pkgconf (1.6.3)
+Determining dependency 'systemd' with pkg-config executable '/root/buildroot-2021.05.1/output/host/bin/pkgconf'
+PKG_CONFIG_PATH: 
+PKG_CONFIG_LIBDIR: /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig
+Called `/root/buildroot-2021.05.1/output/host/bin/pkgconf --modversion systemd` -> 1
+
+CMake binary for MachineChoice.HOST is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Default target is not allowed for cross use
+Found CMake: NO
+No CMake binary for machine 1 not found. Giving up.
+Run-time dependency systemd found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpfz9swb2y
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpfz9swb2y/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpfz9swb2y/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 -D_GNU_SOURCE 
+
+Code:
+ 
+        #define __fpending meson_disable_define_of___fpending
+        
+        #include <limits.h>
+        #undef __fpending
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char __fpending (void);
+        
+        #if defined __stub___fpending || defined __stub_____fpending
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return __fpending ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "__fpending" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd86otv51
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd86otv51/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd86otv51/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 -D_GNU_SOURCE 
+
+Code:
+ 
+        #define getrandom meson_disable_define_of_getrandom
+        
+        #include <limits.h>
+        #undef getrandom
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getrandom (void);
+        
+        #if defined __stub_getrandom || defined __stub___getrandom
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getrandom ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getrandom" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd7joqwwb
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd7joqwwb/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd7joqwwb/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 -D_GNU_SOURCE 
+
+Code:
+ 
+        #define nanosleep meson_disable_define_of_nanosleep
+        
+        #include <limits.h>
+        #undef nanosleep
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char nanosleep (void);
+        
+        #if defined __stub_nanosleep || defined __stub___nanosleep
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return nanosleep ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "nanosleep" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1i48hi8k
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1i48hi8k/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1i48hi8k/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ 
+	#include <sys/types.h>
+	#include <netinet/in.h>
+	#include <netinet/icmp6.h>
+	int main(void) {
+		struct icmp6_nodeinfo nodeinfo;
+		return 0;
+	}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1i48hi8k/testfile.c: In function 'main':
+/root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1i48hi8k/testfile.c:6:25: error: storage size of 'nodeinfo' isn't known
+    6 |   struct icmp6_nodeinfo nodeinfo;
+      |                         ^~~~~~~~
+
+Checking if "struct icmp6_nodeinfo" compiles: NO 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1mjqdqlm
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1mjqdqlm/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1mjqdqlm/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ 
+	#include <sys/types.h>
+	#include <sys/time.h>
+	#include <time.h>
+	int main(void) {
+		struct tm time;
+		return 0;
+	}
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "struct tm time;" compiles: YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmptja8hcj_
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmptja8hcj_/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmptja8hcj_/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp29port8z
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp29port8z/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp29port8z/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lresolv -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library resolv found: YES
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpv57vd4oe
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpv57vd4oe/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpv57vd4oe/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -std=c99 
+
+Code:
+ 
+        #define clock_gettime meson_disable_define_of_clock_gettime
+        
+        #include <limits.h>
+        #undef clock_gettime
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char clock_gettime (void);
+        
+        #if defined __stub_clock_gettime || defined __stub___clock_gettime
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return clock_gettime ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clock_gettime" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_jw4uwt8
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_jw4uwt8/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_jw4uwt8/output.exe -pipe -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldisabler-appears-to-disable-executable-build -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/bin/ld: cannot find -ldisabler-appears-to-disable-executable-build
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp48i5nwy1
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp48i5nwy1/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp48i5nwy1/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) {
+            void * something;
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp6744visi
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp6744visi/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp6744visi/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) >= 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8tgewlfs
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8tgewlfs/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8tgewlfs/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 0)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpgrbjk69j
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpgrbjk69j/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpgrbjk69j/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 1)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4qo607dv
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4qo607dv/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4qo607dv/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 3)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp276mzyc4
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp276mzyc4/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp276mzyc4/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 7)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzlu62t23
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzlu62t23/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzlu62t23/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) > 15)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzlu62t23/testfile.c: In function 'main':
+/root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzlu62t23/testfile.c:3:37: error: size of array 'a' is negative
+    3 |         int main(void) { static int a[1-2*!(sizeof(void *) > 15)]; a[0]=0; return 0; }
+      |                                     ^
+
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp88p3cix9
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp88p3cix9/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp88p3cix9/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 11)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpq_0amz4m
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpq_0amz4m/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpq_0amz4m/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 9)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_pv5ulvv
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_pv5ulvv/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp_pv5ulvv/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include <stdio.h>
+        
+        int main(void) { static int a[1-2*!(sizeof(void *) <= 8)]; a[0]=0; return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmplihewrdw
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmplihewrdw/testfile.c -o /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmplihewrdw/output.obj -pipe -c -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/
+programs: =/root/buildroot-2021.05.1/output/host/libexec/gcc/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/libexec/gcc/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/libexec/gcc/x86_64-buildroot-linux-uclibc/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/bin/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/bin/
+libraries: =/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/lib/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/lib/../lib64/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/lib/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/lib/../lib64/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/x86_64-buildroot-linux-uclibc/9.4.0/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/../lib64/:/root/buildroot-2021.05.1/output/host/lib/gcc/x86_64-buildroot-linux-uclibc/9.4.0/../../../../x86_64-buildroot-linux-uclibc/lib/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/lib/:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/
+
+Compiler stderr:
+ 
+Library disabler-appears-to-disable-executable-build found: NO
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'disabler-appears-to-disable-executable-build' with pkg-config executable '/root/buildroot-2021.05.1/output/host/bin/pkgconf'
+PKG_CONFIG_PATH: 
+PKG_CONFIG_LIBDIR: /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig
+Called `/root/buildroot-2021.05.1/output/host/bin/pkgconf --modversion disabler-appears-to-disable-executable-build` -> 1
+
+CMake binary for MachineChoice.HOST is cached as not found
+No CMake binary for machine 1 not found. Giving up.
+Run-time dependency disabler-appears-to-disable-executable-build found: NO (tried pkgconfig and cmake)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'disabler-appears-to-disable-executable-build' with pkg-config executable '/root/buildroot-2021.05.1/output/host/bin/pkgconf'
+PKG_CONFIG_PATH: 
+PKG_CONFIG_LIBDIR: /root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/root/buildroot-2021.05.1/output/host/x86_64-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig
+CMake binary for MachineChoice.HOST is cached as not found
+No CMake binary for machine 1 not found. Giving up.
+Run-time dependency disabler-appears-to-disable-executable-build found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp2onz93xg
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp2onz93xg/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("inttypes.h")
+          #error "Header 'inttypes.h' could not be found"
+         #endif
+        #else
+         #include <inttypes.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "inttypes.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp70x48c0d
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp70x48c0d/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("limits.h")
+          #error "Header 'limits.h' could not be found"
+         #endif
+        #else
+         #include <limits.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "limits.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpj0rl731i
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpj0rl731i/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/rtnetlink.h")
+          #error "Header 'linux/rtnetlink.h' could not be found"
+         #endif
+        #else
+         #include <linux/rtnetlink.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "linux/rtnetlink.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpkdk72m4l
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpkdk72m4l/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("memory.h")
+          #error "Header 'memory.h' could not be found"
+         #endif
+        #else
+         #include <memory.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "memory.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpip98f0g1
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpip98f0g1/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netdb.h")
+          #error "Header 'netdb.h' could not be found"
+         #endif
+        #else
+         #include <netdb.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "netdb.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpj4ucbjp9
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpj4ucbjp9/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/icmp6.h")
+          #error "Header 'netinet/icmp6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/icmp6.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "netinet/icmp6.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpc9vazq1_
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpc9vazq1_/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/in.h")
+          #error "Header 'netinet/in.h' could not be found"
+         #endif
+        #else
+         #include <netinet/in.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "netinet/in.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp81nl97ec
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp81nl97ec/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("netinet/ip6.h")
+          #error "Header 'netinet/ip6.h' could not be found"
+         #endif
+        #else
+         #include <netinet/ip6.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "netinet/ip6.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpbvjdbtzd
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpbvjdbtzd/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("pwd.h")
+          #error "Header 'pwd.h' could not be found"
+         #endif
+        #else
+         #include <pwd.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "pwd.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmptfojpmg9
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmptfojpmg9/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdint.h")
+          #error "Header 'stdint.h' could not be found"
+         #endif
+        #else
+         #include <stdint.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdint.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp51m7m9pt
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp51m7m9pt/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdlib.h")
+          #error "Header 'stdlib.h' could not be found"
+         #endif
+        #else
+         #include <stdlib.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdlib.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd3ze41pf
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpd3ze41pf/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("string.h")
+          #error "Header 'string.h' could not be found"
+         #endif
+        #else
+         #include <string.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "string.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4brd_dbx
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4brd_dbx/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("strings.h")
+          #error "Header 'strings.h' could not be found"
+         #endif
+        #else
+         #include <strings.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "strings.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpnwppkw1c
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpnwppkw1c/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/capability.h")
+          #error "Header 'sys/capability.h' could not be found"
+         #endif
+        #else
+         #include <sys/capability.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpnwppkw1c/testfile.c:4:12: error: #error "Header 'sys/capability.h' could not be found"
+    4 |           #error "Header 'sys/capability.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/capability.h" : NO 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8ae_eh6q
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8ae_eh6q/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("syslog.h")
+          #error "Header 'syslog.h' could not be found"
+         #endif
+        #else
+         #include <syslog.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "syslog.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpjw_s18uz
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpjw_s18uz/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/time.h")
+          #error "Header 'sys/time.h' could not be found"
+         #endif
+        #else
+         #include <sys/time.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/time.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpds11chiy
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpds11chiy/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/types.h")
+          #error "Header 'sys/types.h' could not be found"
+         #endif
+        #else
+         #include <sys/types.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/types.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1305_4i6
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp1305_4i6/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/uio.h")
+          #error "Header 'sys/uio.h' could not be found"
+         #endif
+        #else
+         #include <sys/uio.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/uio.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpt_8hdmkq
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpt_8hdmkq/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/utsname.h")
+          #error "Header 'sys/utsname.h' could not be found"
+         #endif
+        #else
+         #include <sys/utsname.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/utsname.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzw75hy_h
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpzw75hy_h/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("unistd.h")
+          #error "Header 'unistd.h' could not be found"
+         #endif
+        #else
+         #include <unistd.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "unistd.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmphlzg9qjb
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmphlzg9qjb/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdio.h")
+          #error "Header 'stdio.h' could not be found"
+         #endif
+        #else
+         #include <stdio.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdio.h" : YES 
+Using cached compile:
+Cached command line:   
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdlib.h")
+          #error "Header 'stdlib.h' could not be found"
+         #endif
+        #else
+         #include <stdlib.h>
+        #endif
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Has header "stdlib.h" : YES (cached)
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8p8u5xxq
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp8p8u5xxq/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stddef.h")
+          #error "Header 'stddef.h' could not be found"
+         #endif
+        #else
+         #include <stddef.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stddef.h" : YES 
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4laepzs8
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmp4laepzs8/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("stdarg.h")
+          #error "Header 'stdarg.h' could not be found"
+         #endif
+        #else
+         #include <stdarg.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "stdarg.h" : YES 
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpt2jnzbme
+Command line:  /root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc /root/buildroot-2021.05.1/output/build/iputils-20210202/build/meson-private/tmpt2jnzbme/testfile.c -pipe -E -P -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -Os -D_FILE_OFFSET_BITS=64 -P -O0 -std=c99 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("error.h")
+          #error "Header 'error.h' could not be found"
+         #endif
+        #else
+         #include <error.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "error.h" : YES 
+Configuring config.h using configuration
+Program setcap found: YES (/usr/sbin/setcap)
+Configuring ninfod.sh using configuration
+Message: 
+
+APPLICATIONS (build)
+man: false
+HTML man: false
+arping: true (capability or suid: false)
+clockdiff: true (capability or suid: false)
+ninfod: true (syslog: true)
+ping: true (capability or suid: false)
+rarpd: false
+rdisc: true (server: true)
+tftpd: false
+tracepath: true
+traceroute6: true (capability or suid: false)
+
+CONFIGURATION
+Capatiblity (with libcap): false
+IDN (with libidn2): false
+I18N (with gettext): false
+systemd: false
+
+SYSTEM PATHS
+prefix: /usr
+bindir: /usr/bin
+localedir: /usr/share/locale
+sbindir: /usr/sbin
+systemdunitdir: 
+
+Build targets in project: 9
+
+Found ninja-1.10.2 at /root/buildroot-2021.05.1/output/host/bin/ninja

@@ -1,0 +1,98 @@
+[
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ilibcommon.a.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -fPIC -MD -MQ libcommon.a.p/iputils_common.c.o -MF libcommon.a.p/iputils_common.c.o.d -o libcommon.a.p/iputils_common.c.o -c ../iputils_common.c",
+    "file": "../iputils_common.c",
+    "output": "libcommon.a.p/iputils_common.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ilibcommon.a.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -fPIC -MD -MQ libcommon.a.p/md5.c.o -MF libcommon.a.p/md5.c.o.d -o libcommon.a.p/md5.c.o -c ../md5.c",
+    "file": "../md5.c",
+    "output": "libcommon.a.p/md5.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iping/ping.p -Iping -I../ping -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ ping/ping.p/ping.c.o -MF ping/ping.p/ping.c.o.d -o ping/ping.p/ping.c.o -c ../ping/ping.c",
+    "file": "../ping/ping.c",
+    "output": "ping/ping.p/ping.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iping/ping.p -Iping -I../ping -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ ping/ping.p/ping_common.c.o -MF ping/ping.p/ping_common.c.o.d -o ping/ping.p/ping_common.c.o -c ../ping/ping_common.c",
+    "file": "../ping/ping_common.c",
+    "output": "ping/ping.p/ping_common.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iping/ping.p -Iping -I../ping -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ ping/ping.p/ping6_common.c.o -MF ping/ping.p/ping6_common.c.o.d -o ping/ping.p/ping6_common.c.o -c ../ping/ping6_common.c",
+    "file": "../ping/ping6_common.c",
+    "output": "ping/ping.p/ping6_common.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iping/ping.p -Iping -I../ping -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ ping/ping.p/node_info.c.o -MF ping/ping.p/node_info.c.o.d -o ping/ping.p/node_info.c.o -c ../ping/node_info.c",
+    "file": "../ping/node_info.c",
+    "output": "ping/ping.p/node_info.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Itracepath.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ tracepath.p/tracepath.c.o -MF tracepath.p/tracepath.c.o.d -o tracepath.p/tracepath.c.o -c ../tracepath.c",
+    "file": "../tracepath.c",
+    "output": "tracepath.p/tracepath.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Itraceroute6.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ traceroute6.p/traceroute6.c.o -MF traceroute6.p/traceroute6.c.o.d -o traceroute6.p/traceroute6.c.o -c ../traceroute6.c",
+    "file": "../traceroute6.c",
+    "output": "traceroute6.p/traceroute6.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iclockdiff.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ clockdiff.p/clockdiff.c.o -MF clockdiff.p/clockdiff.c.o.d -o clockdiff.p/clockdiff.c.o -c ../clockdiff.c",
+    "file": "../clockdiff.c",
+    "output": "clockdiff.p/clockdiff.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Irdisc.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ rdisc.p/rdisc.c.o -MF rdisc.p/rdisc.c.o.d -o rdisc.p/rdisc.c.o -c ../rdisc.c",
+    "file": "../rdisc.c",
+    "output": "rdisc.p/rdisc.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Iarping.p -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -MD -MQ arping.p/arping.c.o -MF arping.p/arping.c.o.d -o arping.p/arping.c.o -c ../arping.c",
+    "file": "../arping.c",
+    "output": "arping.p/arping.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ininfod/ninfod.p -Ininfod -I../ninfod -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pthread -MD -MQ ninfod/ninfod.p/ni_ifaddrs.c.o -MF ninfod/ninfod.p/ni_ifaddrs.c.o.d -o ninfod/ninfod.p/ni_ifaddrs.c.o -c ../ninfod/ni_ifaddrs.c",
+    "file": "../ninfod/ni_ifaddrs.c",
+    "output": "ninfod/ninfod.p/ni_ifaddrs.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ininfod/ninfod.p -Ininfod -I../ninfod -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pthread -MD -MQ ninfod/ninfod.p/ninfod.c.o -MF ninfod/ninfod.p/ninfod.c.o.d -o ninfod/ninfod.p/ninfod.c.o -c ../ninfod/ninfod.c",
+    "file": "../ninfod/ninfod.c",
+    "output": "ninfod/ninfod.p/ninfod.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ininfod/ninfod.p -Ininfod -I../ninfod -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pthread -MD -MQ ninfod/ninfod.p/ninfod_addrs.c.o -MF ninfod/ninfod.p/ninfod_addrs.c.o.d -o ninfod/ninfod.p/ninfod_addrs.c.o -c ../ninfod/ninfod_addrs.c",
+    "file": "../ninfod/ninfod_addrs.c",
+    "output": "ninfod/ninfod.p/ninfod_addrs.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ininfod/ninfod.p -Ininfod -I../ninfod -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pthread -MD -MQ ninfod/ninfod.p/ninfod_core.c.o -MF ninfod/ninfod.p/ninfod_core.c.o.d -o ninfod/ninfod.p/ninfod_core.c.o -c ../ninfod/ninfod_core.c",
+    "file": "../ninfod/ninfod_core.c",
+    "output": "ninfod/ninfod.p/ninfod_core.c.o"
+  },
+  {
+    "directory": "/root/buildroot-2021.05.1/output/build/iputils-20210202/build",
+    "command": "/root/buildroot-2021.05.1/output/host/bin/x86_64-buildroot-linux-uclibc-gcc -Ininfod/ninfod.p -Ininfod -I../ninfod -I. -I.. -fdiagnostics-color=always -pipe -Wall -Winvalid-pch -Wextra -Wpedantic -std=c99 -O3 -include config.h -include git-version.h -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -pthread -MD -MQ ninfod/ninfod.p/ninfod_name.c.o -MF ninfod/ninfod.p/ninfod_name.c.o.d -o ninfod/ninfod.p/ninfod_name.c.o -c ../ninfod/ninfod_name.c",
+    "file": "../ninfod/ninfod_name.c",
+    "output": "ninfod/ninfod.p/ninfod_name.c.o"
+  }
+]

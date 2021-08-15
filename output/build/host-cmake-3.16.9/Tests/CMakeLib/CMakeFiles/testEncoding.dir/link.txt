@@ -1,0 +1,1 @@
+/usr/bin/g++  -O2  -L/root/buildroot-2021.05.1/output/host/lib -Wl,-rpath,/root/buildroot-2021.05.1/output/host/lib CMakeFiles/testEncoding.dir/testEncoding.cxx.o  -o testEncoding  ../../Source/kwsys/libcmsys.a -ldl 

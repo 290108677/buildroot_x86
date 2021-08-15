@@ -1,0 +1,1 @@
+/usr/bin/g++  -O2  -L/root/buildroot-2021.05.1/output/host/lib -Wl,-rpath,/root/buildroot-2021.05.1/output/host/lib -rdynamic CMakeFiles/testConsoleBufChild.dir/testConsoleBufChild.cxx.o  -o testConsoleBufChild  libcmsys.a -ldl 

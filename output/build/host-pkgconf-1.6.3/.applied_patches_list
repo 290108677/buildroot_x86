@@ -1,0 +1,2 @@
+/root/buildroot-2021.05.1/package/pkgconf/0001-Only-prefix-with-the-sysroot-a-subset-of-variables.patch
+/root/buildroot-2021.05.1/package/pkgconf/0002-Revert-main-assume-modversion-insted-of-version-if-o.patch

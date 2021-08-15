@@ -1,0 +1,11 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/root/buildroot-2021.05.1/output/target/usr/bin/ping
+/root/buildroot-2021.05.1/output/target/usr/bin/tracepath
+/root/buildroot-2021.05.1/output/target/usr/bin/traceroute6
+/root/buildroot-2021.05.1/output/target/usr/bin/clockdiff
+/root/buildroot-2021.05.1/output/target/usr/sbin/rdisc
+/root/buildroot-2021.05.1/output/target/usr/bin/arping
+/root/buildroot-2021.05.1/output/target/usr/sbin/ninfod
+/root/buildroot-2021.05.1/output/target/etc/init.d/ninfod.sh
+/root/buildroot-2021.05.1/output/target/etc/init.d

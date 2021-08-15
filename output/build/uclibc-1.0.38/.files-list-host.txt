@@ -1,0 +1,4 @@
+uclibc,./bin/ldd
+uclibc,./bin/x86_64-buildroot-linux-uclibc-ldd
+uclibc,./bin/ldconfig
+uclibc,./bin/x86_64-buildroot-linux-uclibc-ldconfig

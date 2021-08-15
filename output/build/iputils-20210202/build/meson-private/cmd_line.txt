@@ -1,0 +1,28 @@
+[options]
+b_pie = false
+strip = false
+build.pkg_config_path = /root/buildroot-2021.05.1/output/host/lib/pkgconfig
+BUILD_CLOCKDIFF = true
+BUILD_RARPD = false
+BUILD_RDISC = true
+BUILD_RDISC_SERVER = true
+BUILD_TRACEPATH = true
+BUILD_TRACEROUTE6 = true
+BUILD_NINFOD = true
+BUILD_ARPING = true
+BUILD_PING = true
+BUILD_TFTPD = false
+USE_CAP = false
+USE_IDN = false
+USE_GETTEXT = false
+BUILD_MANS = false
+BUILD_HTML_MANS = false
+NO_SETCAP_OR_SUID = true
+prefix = /usr
+libdir = lib
+buildtype = release
+default_library = shared
+
+[properties]
+cross_file = ['/root/buildroot-2021.05.1/output/build/iputils-20210202/build/cross-compilation.conf']
+

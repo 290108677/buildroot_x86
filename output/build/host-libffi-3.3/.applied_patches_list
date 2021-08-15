@@ -1,0 +1,7 @@
+/root/buildroot-2021.05.1/package/libffi/0001-Fix-installation-location-of-libffi.patch
+/root/buildroot-2021.05.1/package/libffi/0002-Fix-use-of-compact-eh-frames-on-MIPS.patch
+/root/buildroot-2021.05.1/package/libffi/0003-libffi-enable-hardfloat-in-the-MIPS-assembly-code.patch
+/root/buildroot-2021.05.1/package/libffi/0004-ffi_powerpc.h-fix-build-failure-with-powerpc7.patch
+/root/buildroot-2021.05.1/package/libffi/0005-powerpc-fix-build-failure-on-power7-and-older.patch
+/root/buildroot-2021.05.1/package/libffi/0006-Address-platforms-with-no-__int128.patch
+/root/buildroot-2021.05.1/package/libffi/0007-powerpc64-Use-memcpy-to-help-platforms-with-no-__int128.patch

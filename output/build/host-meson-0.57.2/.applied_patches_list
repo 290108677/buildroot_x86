@@ -1,0 +1,2 @@
+/root/buildroot-2021.05.1/package/meson/0001-Prefer-ext-static-libs-when-default-library-static.patch
+/root/buildroot-2021.05.1/package/meson/0002-mesonbuild-dependencies-base.py-add-pkg_config_stati.patch

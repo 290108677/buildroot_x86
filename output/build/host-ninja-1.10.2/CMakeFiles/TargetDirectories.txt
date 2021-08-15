@@ -1,0 +1,9 @@
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/install/strip.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/install/local.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/install.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/libninja.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/edit_cache.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/libninja-re2c.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/ninja.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/rebuild_cache.dir
+/root/buildroot-2021.05.1/output/build/host-ninja-1.10.2/CMakeFiles/list_install_components.dir

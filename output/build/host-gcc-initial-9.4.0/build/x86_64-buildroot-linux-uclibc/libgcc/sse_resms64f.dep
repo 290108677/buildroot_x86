@@ -1,0 +1,14 @@
+sse_resms64f.o: ../../../libgcc/config/i386/sse_resms64f.S \
+ sse_resms64f.vis ../../../libgcc/config/i386/resms64f.h \
+ /root/buildroot-2021.05.1/output/build/host-gcc-initial-9.4.0/build/gcc/include/cet.h \
+ ../../../libgcc/config/i386/i386-asm.h auto-target.h
+
+sse_resms64f.vis:
+
+../../../libgcc/config/i386/resms64f.h:
+
+/root/buildroot-2021.05.1/output/build/host-gcc-initial-9.4.0/build/gcc/include/cet.h:
+
+../../../libgcc/config/i386/i386-asm.h:
+
+auto-target.h:
